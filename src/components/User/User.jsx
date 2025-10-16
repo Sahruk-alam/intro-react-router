@@ -4,7 +4,7 @@ import Uses from '../uses/Uses';
 
 const User = () => {
     const user=useLoaderData()
-    console.log(user);
+    // console.log(user);
     return (
         <div>
             <h2>User path is defined</h2>

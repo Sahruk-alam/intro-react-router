@@ -5,7 +5,7 @@ const User2 = ({usersPromise}) => {
     console.log("users2",users22);
     return (
         <div>
-            <h2>users 2</h2>
+            <h2>users 2 component </h2>
         </div>
     );
 };
