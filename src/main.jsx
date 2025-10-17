@@ -37,7 +37,7 @@ const router = createBrowserRouter([
       {
         path:"/Users2",
         element: <Suspense fallback={<div>Loading...</div>}>
-          <User2 usersPromise={usersPromise}></User2>
+        <User2 usersPromise={usersPromise}></User2>
           </Suspense>
       },
       {
@@ -65,6 +65,10 @@ const router = createBrowserRouter([
   {
     path:"/apps",
     element: <div>Apps</div>
+  },
+  {
+    path:"*",
+    element:<div>404 Not Found</div>
   }
 ]);
 
